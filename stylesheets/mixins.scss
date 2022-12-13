@@ -1,0 +1,19 @@
+@mixin primary-button() {
+  background: $button-bg_color;
+  color: $button_text_color;
+  border-radius: $button-radius;
+  padding: 0.65rem 1.25rem;
+  font-size: 1.15rem;
+  font-weight: 500;
+  max-height: 3rem;
+  span {
+    font-family: var(--heading-font-family);
+  }
+  &:hover,
+  &:focus {
+  background: $button_bg_hover_color;
+  }
+  .d-icon {
+    color: $button_text_color !important;
+  }
+}

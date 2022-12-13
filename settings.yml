@@ -1,0 +1,12 @@
+button_bg_color:
+  type: string
+  default: "var(--tertiary)"
+button_bg_hover_color:
+  type: string
+  default: "var(--tertiary-hover)"
+button_text_color:
+  type: string
+  default: "var(--secondary)"
+button_radius:
+  type: string
+  default: "5px"
