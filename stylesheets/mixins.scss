@@ -2,18 +2,22 @@
   background: $button-bg_color;
   color: $button_text_color;
   border-radius: $button-radius;
-  padding: 0.65rem 1.25rem;
-  font-size: 1.15rem;
-  font-weight: 500;
+  padding: $button_padding;
+  font-size: $button_font-size;
+  font-weight: $button_font_weight;
   max-height: 3rem;
   span {
     font-family: var(--heading-font-family);
   }
-  &:hover,
-  &:focus {
-  background: $button_bg_hover_color;
-  }
   .d-icon {
     color: $button_text_color !important;
+  }
+  &:hover,
+  &:focus {
+    background: $button_bg_hover_color;
+    color: $button_text_hover_color;
+    .d-icon {
+      color: $button_text_hover_color !important;
+    }
   }
 }

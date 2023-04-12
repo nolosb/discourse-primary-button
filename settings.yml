@@ -1,12 +1,24 @@
 button_bg_color:
   type: string
   default: "var(--tertiary)"
+button_text_color:
+  type: string
+  default: "var(--secondary)"
 button_bg_hover_color:
   type: string
   default: "var(--tertiary-hover)"
-button_text_color:
+button_text_hover_color:
   type: string
   default: "var(--secondary)"
 button_radius:
   type: string
   default: "5px"
+button_padding:
+  type: string
+  default: "0.5em 1em"
+button_font_size:
+  type: string
+  default: "1.15rem"
+button_font_weight:
+  type: string
+  default: "500"
