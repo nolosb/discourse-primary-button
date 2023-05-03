@@ -13,6 +13,12 @@ button_text_hover_color:
 button_radius:
   type: string
   default: "5px"
+button_border:
+  type: string
+  default: "1px solid transparent"
+button_border_hover:
+  type: string
+  default: "1px solid transparent"
 button_padding:
   type: string
   default: "0.5em 1em"

@@ -1,4 +1,4 @@
-.btn-primary,
+.btn-primary:not(.search-button),
 .btn-default#create-topic,
 button.btn-primary.create,
 #login-button,
@@ -6,7 +6,6 @@ button.btn-primary.create,
 .discourse-no-touch .btn-primary:hover {
   @include primary-button;
   align-items: center;
-  display: block;
 }
 .d-header {
   .panel.clearfix {
