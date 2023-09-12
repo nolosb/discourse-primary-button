@@ -2,7 +2,7 @@
   background: $button-bg_color;
   color: $button_text_color;
   border-radius: $button-radius;
-  border:  $button_border;
+  border: $button_border;
   padding: $button_padding;
   font-size: $button_font-size;
   font-weight: $button_font_weight;
@@ -11,7 +11,7 @@
     font-family: var(--heading-font-family);
   }
   .d-icon {
-    color: $button_text_color !important;
+    color: $button_text_color;
   }
   &:hover,
   &:focus {
@@ -19,7 +19,7 @@
     color: $button_text_hover_color;
     border: $button_border_hover;
     .d-icon {
-      color: $button_text_hover_color !important;
+      color: $button_text_hover_color;
     }
   }
 }

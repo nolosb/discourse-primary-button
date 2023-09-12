@@ -1,3 +1,4 @@
+// Primary buttons across the interface
 .btn-primary:not(.search-button),
 .btn-default#create-topic,
 button.btn-primary.create,
@@ -7,19 +8,22 @@ button.btn-primary.create,
   @include primary-button;
   align-items: center;
 }
-.d-header {
-  .panel.clearfix {
-    display: flex;
-    flex-direction: row-reverse;
-    .header-buttons {
-      .sign-up-button,
-      .login-button {
-        display: flex;
-        gap: 0.5em;
-        @include primary-button;
-        .d-icon {
-        }
-      }
-    }
-  }
+
+// Primary buttons on the header
+.d-header .panel.clearfix .header-buttons .sign-up-button,
+.d-header .panel.clearfix .header-buttons .login-button,
+#new-create-topic {
+  @include primary-button;
+}
+
+// Adjust user icon on auth buttons
+.d-header .panel.clearfix .header-buttons .login-button {
+  display: flex;
+  gap: 5px;
+}
+
+// Move auth buttons to the right of the header
+.anon .d-header .panel.clearfix {
+  display: flex;
+  flex-direction: row-reverse;
 }
