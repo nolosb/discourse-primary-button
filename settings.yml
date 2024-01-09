@@ -24,7 +24,7 @@ button_padding:
   default: "0.5em 1em"
 button_font_size:
   type: string
-  default: "1.15rem"
+  default: "1rem"
 button_font_weight:
   type: string
   default: "500"
