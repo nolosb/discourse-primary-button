@@ -12,7 +12,7 @@ button_text_hover_color:
   default: "var(--secondary)"
 button_radius:
   type: string
-  default: "5px"
+  default: "var(--d-button-border-radius)"
 button_border:
   type: string
   default: "1px solid transparent"
