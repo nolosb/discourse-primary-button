@@ -1,0 +1,7 @@
+.discourse-site
+node_modules
+HELP
+.eslintrc
+.template-lintrc.js
+.prettierrc
+yarn.lock
